@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+          "geometry": {
+              "type": "Point",
+              "coordinates": [51.0613537,
+                 4.7030875
+              ]
+          },
+          "type": "Feature",
+          "properties": {
+              "devEui": "70B3D5705000BA65",
+              "timestamp": "11:13:08",                      
+              "tag": "Oyster"
+          }
+      },
+      {
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  51.0764675,
+                  4.7201499
+              ]
+          },
+          "type": "Feature",
+          "properties": {
+              "devEui": "70B3D5705000CA6D",
+              "timestamp": "07:42:22",                      
+              "tag": "Yabby"
+          }
+      },
+      {
+          "geometry": {
+              "type": "Point",
+             "coordinates": [51.076212,
+                  4.720231
+              ]
+          },
+          "type": "Feature",
+          "properties": {
+              "devEui": "E8E1E100010143A8",
+              "timestamp": "23:52:18",                      
+              "tag": "Tabs"
+          }
+      },
+      {
+          "geometry": {
+              "type": "Point",
+              "coordinates": [51.31345,
+                  5.19376
+              ]
+          },
+          "type": "Feature",
+          "properties": {
+              "devEui": "0059AC0000152EC2",
+              "timestamp": "19:27:588",                      
+              "tag": "Yabby"
+          }
+      }      
+                 
+  ]
+}

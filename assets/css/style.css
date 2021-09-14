@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+
+/*---------------------- MAP */
+#map {
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*--- navigation bar ---*/
+
+.navbar {
+  background: rgb(21, 130, 194); 
+}
+
+.navbar-nav {
+  font-size: 100%;
+  list-style-type: none;
+  letter-spacing: 4px;  
+  padding-bottom: 10px;  
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: #fafafa;
+  
+}
+
+.navbar-nav a:hover {
+  border-bottom: 2px solid orange;
+}
+
+.navbar-nav .active {
+  border-bottom: 2px solid orange;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  color: white;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;  
+}
+
+/****-----------Cover elements----*/
+
+.cover-outer {
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 70px;
+  border: 1px solid yellow;
+}
+
+@keyframes cover-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+ 
+#cover-image {
+  height: 800px;
+  width: 100%;
+  background: url("../img/child1.jpg") no-repeat center center;
+  animation-name: cover-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+/** ---------------H3, Cover text and Button elements-*/ 
+
+#cover-text h3 {
+  color: #fafafa;
+  margin: 10px auto;
+}
+
+#cover-text {
+  font-size: 100%;
+  font-family: "Exo", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 400px;
+  height: 130px;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: rgba(38, 113, 233, 0.904);
+  bottom: 30px;
+  right: 150px;
+  position: absolute;
+}
+
+.cover-button {
+  background-color: orange; 
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 90px;
+  border-radius: 6px;  
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+
+/**----------------------- Home page -main content-*/
+.welcome {
+  margin: 5px auto;
+  font-family: "Exo", sans-serif;
+  text-align: center;
+  font-size: 250%;
+  color: rgb(0, 98, 128);
+}
+
+.main-content {
+  margin: 2em auto;
+  padding: 1em;
+  position: relative;
+}
+
+.lora-content {
+  color: orange;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/**----------------------- Home page vegan media-*/
+.lora-media {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.advantages,
+.usecase,
+.usecase-net {
+  width: 100%;
+}
+
+
+.video-player {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ----------------------------------------projects page */
+.proximus-lora {
+  margin: 2em auto;
+  padding: 1em;
+  position: relative;    
+}
+
+.top-section {
+  margin-top: 110px;
+}
+
+.lora {
+  color: orange;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.last-section {  
+  margin-bottom: 50px;   
+}
+
+/* ----------------------------------------Contact page */
+.contact-info {  
+  width: 100%; 
+  margin: 180px auto 90px auto;  
+  height: auto;  
+}
+
+.contact-info,  h2 {     
+  padding-bottom: 30px;   
+}
+
+/* ----------------------------------------Sign up page */
+.sign-up {  
+  width: 380px; 
+  height: 580px;
+  margin: 140px auto 150px auto;  
+}
+
+.signup-form {  
+  margin: 10px auto 10px auto;  
+  padding-top: 15px;
+}
+
+.btn {
+    color: #fafafa;
+}
+
+.proximus-lora,
+.lora-content,
+p {
+  font-family: "Exo", sans-serif;
+  font-size: 18px;
+}
+
+#signin-text {
+    color: orange;
+}
+/*----------------------------------------Footer */
+footer {
+  background-color: rgb(21, 130, 194); 
+  color: #fafafa;
+  min-height: 135px;
+  margin: 0;
+  
+}
+
+/*----------------------------------Social Media icons-*/
+.social-links {
+  padding-bottom: 15px;
+  float: right;
+  padding-top: 35px;  
+  margin-top: 0;
+}
+
+.social-links li a i {
+  width: 30px;
+  height: 30px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 18px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: orange;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #e84610;
+}
+
+#footer-details {
+  padding-top: 10px;   
+}
+
+.social-sub {
+  position: absolute;
+  right: 20px;  
+}
+
+footer p {
+  font-size: 14px;
+}
+/*-------------------------- End of Social Media-*/
+
+/*---------------------------------------Media Queries--*/
+@media screen and (max-width: 743px) {
+  #cover-text {
+    display: none;
+  }
+  
+  .welcome  {    
+    font-size: 120%;
+    margin-bottom: 0;
+    margin-top: 0;    
+    }
+
+  .main-content {
+    margin: 0;
+  }
+
+  .advantages,
+  .usecase,
+  .usecase-net {
+    max-width: 700px;
+    height: auto
+  }
+
+  .social-sub {
+    position: absolute; 
+    left: 20px;
+  }
+
+   .nav.navbar.fixed-top {
+        overflow-y: visible;
+    }
+    
+   .social-links {
+       float: left;
+   }
+   .contact-info {
+       margin-top: 75px;
+       margin-bottom: 20px;
+   }
+
+   .sign-up {
+       margin-top: 40px;
+       margin-bottom: 30px;
+       height: 400px;
+   }
+
+   .proximus-lora {       
+      margin: 5px;
+       padding: 10px;       
+   }
+
+   .top-section {
+       margin-top: 80px;
+   }
+
+   .last-section {
+       margin-bottom: 15px;
+   }
+
+   .lora {
+       text-align: center;
+   }
+}
